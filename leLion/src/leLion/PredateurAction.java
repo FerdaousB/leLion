@@ -6,7 +6,7 @@ public interface PredateurAction {
 	public String Chasser ();
 	public void Courrir ();
 	public void SeReproduire();
-	public String EmettreSon();
-
+	public void EmettreSon(); 
+	
 	
 }

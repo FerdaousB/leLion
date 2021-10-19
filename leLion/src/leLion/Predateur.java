@@ -11,8 +11,8 @@ public abstract class Predateur implements PredateurAction{
 	private EmettreSon emettreSon;
 	
 	enum Nourriture {viande ,omnivore };
-	enum Categorie {jeune ,adulte, vieux };
-	enum Appartenance {groupe ,solitaire };
+	enum Categorie {Jeune ,Adulte, Vieux };
+	enum Appartenance {Groupe ,Solitaire };
 	enum typeDeChasse {seul ,groupe };
 	enum EmettreSon {hurle ,rugit }
 	
@@ -68,12 +68,7 @@ public abstract class Predateur implements PredateurAction{
 	}
 
 
-	@Override
-	public String toString() {
-		return "Predateur [sexe=" + sexe + ", categorie=" + categorie + ", force=" + force + ", appartenance="
-				+ appartenance + "]";
-	}; 
-	 
+	
 	 
 	
 	
