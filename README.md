@@ -2,6 +2,7 @@
 # Act-1.8 : Les Principes SOLID
 
    OBJECTIFS
+   
        - Comprendre chacune des notions derrière l'acronyme.
        - Comprendre leur utilité.
        - Assimiler la philosophie.
